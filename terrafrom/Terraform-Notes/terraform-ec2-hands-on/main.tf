@@ -1,13 +1,11 @@
-provider "aws" {
-   region = "us-east-1"
-   profile = "aws_cred"
-   }
-      
-resource "aws_instance" "my_ec2_instance" {
-  ami           = "ami-08c40ec9ead489470"
-  instance_type = "t2.micro"
-
+resource "aws_instance" "ec2" {
+  ami             = XXXXXXX       # give ami id 
+  instance_type   = t2.micro      # instance type
+  security_groups = ["XXXXXXXX"]  # security group name
+  key_name        = "XXXXXXXXXXX" # key-pair
   tags = {
-    Name = "FirstEC2Instnace"
+    Name    = "HelloWorld"
+    Env     = "Test"
+    project = "pokemon"
   }
 }
