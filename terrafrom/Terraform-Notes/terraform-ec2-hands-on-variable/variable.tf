@@ -1,5 +1,5 @@
 variable "ami" {
-  default = "XXXXX"
+  default = "ami-0f8ca728008ff5af4"
 }
 
 variable "instanceType" {
@@ -11,5 +11,5 @@ variable "sg" {
 }
 
 variable "keyname" {
-  default = "aws"
+  default = "awsdevops-mum.key"
 }
