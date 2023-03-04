@@ -1,3 +1,4 @@
+
 <a href="https://jenkins.io">
   <picture>
     <source width="200" media="(prefers-color-scheme: dark)" srcset="https://www.jenkins.io/images/jenkins-logo-title-dark.svg">
@@ -122,13 +123,6 @@ Use milestone to accidently deploying old version over a new version
 * Create directory jenkinsbackupand cd into it.
 * Set write permission to directory
 * Go to jenkins enter dir path and backup and restore jenkins.
-
-
-
-
-
-
-
 
 
 
