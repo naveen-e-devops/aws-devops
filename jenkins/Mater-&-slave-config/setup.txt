@@ -1,0 +1,18 @@
+ step 1:    launch an ec2 instance ubuntu/centos
+
+ step 2:    connect to that instance and update instance package
+
+ step 3:    install same java version as master 
+            sudo apt update 
+		    sudo apt install openjdk-11-jdk -y
+
+ step 4:    create a user and add sudo privilage 
+            sudo visudo 
+		
+ step 5:    enable password authentication yes
+            sudo vi /etc/ssh/sshd_config
+		    restart ssh service
+		
+ step 6:    switch to slave user and create a jenkins-workspace dir
+            su - user-name
+            mkdir jenkins-workspace
