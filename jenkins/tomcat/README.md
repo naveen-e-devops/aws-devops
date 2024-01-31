@@ -11,7 +11,7 @@ sudo apt-get update
 sudo apt install openjdk-8-jdk -y
 
 # Download the latest version of Tomcat 8 from the official website:
-wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77.tar.gz
+wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.98/bin/apache-tomcat-8.5.98.tar.gz
 
 # Note: You can replace the version number in the URL with the latest version available.
 
